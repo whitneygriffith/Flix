@@ -53,6 +53,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="overviewLabel" destination="c3j-VX-5tE" id="soC-wp-Vte"/>
+                                            <outlet property="posterImageView" destination="iSj-g0-3tU" id="Qch-Ml-X06"/>
                                             <outlet property="titleLabel" destination="PrL-gB-z9C" id="vfX-aU-mUE"/>
                                         </connections>
                                     </tableViewCell>
