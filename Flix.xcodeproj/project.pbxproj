@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5040B04B214197900053355D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5040B0492141978F0053355D /* LaunchScreen.storyboard */; };
 		50B8110221415A1E00356CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8110121415A1E00356CAA /* AppDelegate.swift */; };
 		50B8110421415A1E00356CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8110321415A1E00356CAA /* ViewController.swift */; };
 		50B8110721415A1E00356CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8110521415A1E00356CAA /* Main.storyboard */; };
 		50B8110921415A1E00356CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B8110821415A1E00356CAA /* Assets.xcassets */; };
-		50B8110C21415A1E00356CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8110A21415A1E00356CAA /* LaunchScreen.storyboard */; };
 		50B8111721415A1E00356CAA /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8111621415A1E00356CAA /* FlixTests.swift */; };
 		50B8112221415A1E00356CAA /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8112121415A1E00356CAA /* FlixUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5040B04A2141978F0053355D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../EFlix/Flix/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B810FE21415A1E00356CAA /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B8110121415A1E00356CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B8110321415A1E00356CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50B8110621415A1E00356CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50B8110821415A1E00356CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50B8110B21415A1E00356CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B8110D21415A1E00356CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B8111221415A1E00356CAA /* FlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B8111621415A1E00356CAA /* FlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixTests.swift; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 				50B8110121415A1E00356CAA /* AppDelegate.swift */,
 				50B8110321415A1E00356CAA /* ViewController.swift */,
 				50B8110521415A1E00356CAA /* Main.storyboard */,
+				5040B0492141978F0053355D /* LaunchScreen.storyboard */,
 				50B8110821415A1E00356CAA /* Assets.xcassets */,
-				50B8110A21415A1E00356CAA /* LaunchScreen.storyboard */,
 				50B8110D21415A1E00356CAA /* Info.plist */,
 			);
 			path = Flix;
@@ -229,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B8110C21415A1E00356CAA /* LaunchScreen.storyboard in Resources */,
+				5040B04B214197900053355D /* LaunchScreen.storyboard in Resources */,
 				50B8110921415A1E00356CAA /* Assets.xcassets in Resources */,
 				50B8110721415A1E00356CAA /* Main.storyboard in Resources */,
 			);
@@ -293,20 +293,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5040B0492141978F0053355D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5040B04A2141978F0053355D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		50B8110521415A1E00356CAA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				50B8110621415A1E00356CAA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50B8110A21415A1E00356CAA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50B8110B21415A1E00356CAA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
