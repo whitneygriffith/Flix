@@ -163,7 +163,7 @@
             </objects>
             <point key="canvasLocation" x="25.5" y="35.5"/>
         </scene>
-        <!--Superhero View Controller-->
+        <!--Superhero-->
         <scene sceneID="nSR-PE-q42">
             <objects>
                 <viewController id="eBl-Tx-SrB" customClass="SuperheroViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -207,7 +207,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aHR-FB-oNZ"/>
+                    <navigationItem key="navigationItem" title="Superhero" id="aHR-FB-oNZ"/>
                     <connections>
                         <outlet property="collectionView" destination="Awj-st-bsh" id="BDR-cg-IxF"/>
                     </connections>
