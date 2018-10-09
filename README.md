@@ -137,8 +137,8 @@ The following **required** user stories are complete:
 
 The following **stretch** user stories are implemented:
 
-- [ ] Dynamic Height Cells (+1)
-- [ ] Collection View AutoLayout (+2)
+- [x] Dynamic Height Cells (+1)
+- [x] Collection View AutoLayout (+2)
 
 The following **additional** user stories are implemented:
 
@@ -188,10 +188,10 @@ Time spent: **2** hours spent in total
 
 The following **required** user stories are complete:
 
-- [ ] Create a movie model (+2pt)
-- [ ] Implement the movie model (+2pt)
-- [ ] Implement property observers (+2pt)
-- [ ] Create a basic API Client (+2pt)
+- [x] Create a movie model (+2pt)
+- [x] Implement the movie model (+2pt)
+- [x] Implement property observers (+2pt)
+- [x] Create a basic API Client (+2pt)
 
 The following **additional** user stories are implemented:
 
